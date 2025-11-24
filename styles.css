@@ -353,6 +353,27 @@ body {
     box-shadow: var(--shadow-soft);
     object-fit: cover;
 }
+/* Flavour card title with small image */
+.flavour-header {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin-bottom: 0.2rem;
+}
+
+.flavour-header h4 {
+    margin: 0;
+}
+
+/* Small round icon for each flavour */
+.flavour-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.7);
+}
 
 /* Wishlist button */
 .wishlist-btn {
